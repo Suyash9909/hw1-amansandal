@@ -82,6 +82,7 @@ def list_2D():
 
     # Collect the items in the last column of matrix A using list comprehension and assign it to a new variable last_column.
 
+
     last_column = A[2]
 
     # Get the item at the last row and last column of A.
@@ -115,6 +116,7 @@ def dictionary():
 
 
     return fruit_dict, f
+    
 def dictionary_nested():
     # Create a nested dictionary Grace where:
     #   "name" => {"first_name" => "Grace", "last_name" => "Hopper"} (a dictionary)
