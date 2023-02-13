@@ -60,10 +60,9 @@ def list_1D():
     hoboken_first_item = hoboken_list[0]
 
     ####
-    l=[2,3,4,1,5,6,9,10,15,12,13,-2,-6,0,0]
+    l=[2,3,4,1,5,6,9,10,15,12,13,-2,-6,0,0].sort()
 
     # Inplace sort list l (use .sort() ).
-    l.sort()
 
 
     # Get the 4th to 10th item in sorted list l and assign them to a new list new_l.
