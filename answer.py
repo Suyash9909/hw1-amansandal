@@ -9,7 +9,7 @@ def number():
        This is to review numbers and basic operations.
        """
     # Write the value 4 to the power of 5 and assign it to variable x.
-    x = 4^5
+    x = 4**5
     # Write the value x divided by 3 and assign it to variable y.
     y = x/3
     return x,y
@@ -57,7 +57,7 @@ def list_1D():
 
     # Get the first item in the hoboken_list and assign it to a new variable hoboken_first_item.
 
-    hoboken_first_item = hoboken_list[1]
+    hoboken_first_item = hoboken_list[0]
 
     ####
     l=[2,3,4,1,5,6,9,10,15,12,13,-2,-6,0,0]
@@ -83,7 +83,7 @@ def list_2D():
     # Collect the items in the last column of matrix A using list comprehension and assign it to a new variable last_column.
 
 
-    last_column = A[2]
+    last_column = A[][2]
 
     # Get the item at the last row and last column of A.
 
@@ -116,7 +116,7 @@ def dictionary():
 
 
     return fruit_dict, f
-    
+
 def dictionary_nested():
     # Create a nested dictionary Grace where:
     #   "name" => {"first_name" => "Grace", "last_name" => "Hopper"} (a dictionary)
